@@ -17,4 +17,8 @@
         <property name="prefix" value="/WEB-INF/jsp/"/>
         <property name="suffix" value=".jsp"/>
     </bean>
+
+    <bean class="net.nemo.springmvc.CustomziedExceptionResolver">
+        <property name="defaultErrorView" value="/error" />
+    </bean>
 </beans>
